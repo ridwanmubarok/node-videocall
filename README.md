@@ -14,7 +14,7 @@ A full working demo is available at <a href="http://www.foobubble.com" target="_
 At the moment WebRTC is supported only by a limited number of browsers: Chrome, Firefox and Opera.
 
 ## How to run the code
-1. Clone the repo: `$ git clone https://github.com/lucaslouca/video-conference-webrtc.git` 
+1. Clone the repo: `$ git clone https://github.com/ridwanmubarok/node-videocall.git` 
 2. `$ cd video-conference-webrtc `
 3. `$ npm install` (you may need root access)
 4. `$ node server.js`
