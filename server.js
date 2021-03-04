@@ -15,7 +15,7 @@ var logger = require('./logger').logger(environment);
 
 var serverPort = process.env.RTC_PORT || 1337
 var serverIpAddress = process.env.RTC_IP || 'localhost'
-var socketIoServer = '127.0.0.1' + ':' + serverPort;
+var socketIoServer = process.env.PORT+':'+process.env.RTC_PORT;
 
 ////////////////////////////////////////////////
 // SETUP SERVER
