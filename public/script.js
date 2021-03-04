@@ -1,7 +1,7 @@
 const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
-  host: 'https://meet-daylight.herokuapp.com/',
+  host: '/',
   port: 443,
   secure: true
 })
